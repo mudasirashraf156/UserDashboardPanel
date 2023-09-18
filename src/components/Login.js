@@ -18,7 +18,7 @@ function Copyright(props) {
       align="center"
       {...props}
     >
-      Created by Chetan Nada
+      Created by Mudasir Prra
       {" © "}
       {new Date().getFullYear()}
     </Typography>
@@ -37,7 +37,7 @@ export default function Login() {
     const email = data.get("email");
     const password = data.get("password");
     if (email == "mudasir@gmail.com" && password == "12345") {
-      localStorage.setItem("emailData", "chetan@gmail.com");
+      localStorage.setItem("emailData", "mudasir@gmail.com");
       localStorage.setItem("passwordData", "12345");
       navigate("/");
     } else {

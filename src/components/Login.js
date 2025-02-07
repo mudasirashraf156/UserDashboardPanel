@@ -18,7 +18,7 @@ function Copyright(props) {
       align="center"
       {...props}
     >
-      Created by Mudasir Prra
+      Created by Mudasir Parra
       {" © "}
       {new Date().getFullYear()}
     </Typography>
